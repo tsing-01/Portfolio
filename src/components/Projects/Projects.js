@@ -2,12 +2,11 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import Rxcellent from "../../Assets/Projects/rxcellent.png";
+import Resort from "../../Assets/Projects/resort.jpeg";
+import liggy from "../../Assets/Projects/liggy.png";
+import Market from "../../Assets/Projects/market.png";
+import ZebraUI from "../../Assets/Projects/zebraui.png";
 
 function Projects() {
   return (
@@ -15,7 +14,7 @@ function Projects() {
       <Particle />
       <Container>
         <h1 className="project-heading">
-          My Recent <strong className="purple">Works </strong>
+          My Recent <strong className="blue">Works </strong>
         </h1>
         <p style={{ color: "white" }}>
           Here are a few projects I've worked on recently.
@@ -23,68 +22,65 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={liggy}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="Liggy Offical Website"
+              description="I developed the first offical webiste for car hailing at DiDi. It can support diffrerent languages. Static page makes the webiste having a high score for SEO. Using EJB+HTML+CSS as the technology stack. In addition, it shows fluent on mobile and PC."
+              // ghLink="https://www.liggyglobal.com/"
+              demoLink="https://www.liggyglobal.com/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={ZebraUI}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="ZebraUI Components"
+              description="This is a component library for team technology at DiDi, which is a collection of reusable UI components. It is based on vue.js like element-ui. ZebraUI can support Driver, Passenger and outside H5 pages. It imporeved the efficiency of development and the quality of the product."
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={Resort}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title="Universal Beijing Resort APP"
+              description="This is mini program for Universal Beijing Resort and it can work on AMAP, Fliggy, AliPay, Taobao for different OS, platforms, versions. I responsible for map moudle, search moudle, 360 panorama moudle, AI system, e-commerce, ticketing system...."            
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={Resort}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              title="Universal Beijing Resort CMS"
+              description="CMS platform maily for Universal Beijing Resort mini program. I responsible for architecture design, authority management, approval system. It has a efficient performance on real-time view and easy configuration."            
             />
           </Col>
-
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              imgPath={Resort}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+              title="qucikBolt Platform"
+              description="qucikBolt is a low code platform for in-group development. It can help developers to build a project quickly and edit the page flexibly when the page works online. And I developed page analyse robot, which can push data weekly and monthly."            
             />
           </Col>
-
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={emotion}
+              imgPath={Market}
               isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+              title="Bu MarketPlace"
+              description="Bu MarketPlace is a flea to help student to sell their second-hand goods. The project developed by Java + SpringBoot + Mysql and it authorized by bu email. This is a school team project and I responsible the technology architecture design and datebase design."            
+              ghLink="https://github.com/BUMETCS673/group-project-team2-python-BUMarketPlace"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Rxcellent}
+              isBlog={false}
+              title="Rxcellent"
+              description="Rxcellent is a prescription webiste for patients and doctores. I responsible for project technology architecture design, back-end development and mongoDB design. It is a school team project and we got the first prize in the competition."            
+              ghLink="https://github.com/BUMETCS673/group-project-team4-js"
             />
           </Col>
         </Row>

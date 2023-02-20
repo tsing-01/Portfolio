@@ -5,8 +5,22 @@ import {
   SiVisualstudiocode,
   SiPostman,
   SiHeroku,
-  SiVercel,
+  SiVirtualbox,
+  SiSwagger,
+  SiFigma,
+  SiDocker,
+  SiSketch,
+  SiIntellijidea
+
 } from "react-icons/si";
+
+import { 
+  DiGit
+} from "react-icons/di";
+
+import {
+  FaAws
+} from "react-icons/fa";
 
 function Toolstack() {
   return (
@@ -21,10 +35,31 @@ function Toolstack() {
         <SiPostman />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiVercel />
+        <SiHeroku />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiHeroku />
+        <FaAws />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiGit />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiVirtualbox />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiSwagger />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiFigma />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiDocker />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiSketch />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiIntellijidea />
       </Col>
     </Row>
   );
