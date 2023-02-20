@@ -4,9 +4,12 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import Rxcellent from "../../Assets/Projects/rxcellent.png";
 import Resort from "../../Assets/Projects/resort.jpeg";
+import Cms from "../../Assets/Projects/cms.jpeg";
 import liggy from "../../Assets/Projects/liggy.png";
 import Market from "../../Assets/Projects/market.png";
 import ZebraUI from "../../Assets/Projects/zebraui.png";
+import Quickbolt from "../../Assets/Projects/qucikbolt.png";
+
 
 function Projects() {
   return (
@@ -51,7 +54,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={Resort}
+              imgPath={Cms}
               isBlog={false}
               title="Universal Beijing Resort CMS"
               description="CMS platform maily for Universal Beijing Resort mini program. I responsible for architecture design, authority management, approval system. It has a efficient performance on real-time view and easy configuration."            
@@ -59,7 +62,7 @@ function Projects() {
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={Resort}
+              imgPath={Quickbolt}
               isBlog={false}
               title="qucikBolt Platform"
               description="qucikBolt is a low code platform for in-group development. It can help developers to build a project quickly and edit the page flexibly when the page works online. And I developed page analyse robot, which can push data weekly and monthly."            
