@@ -31,7 +31,7 @@ function AboutCard() {
           </ul>
           <br />
           <p className="blue">
-            "If you don't know what it's like outside, you try to spread your legs first"
+            "Opportunity always comes to those who are ready!"
           </p>
           <footer className="blue">--TSing</footer>
         </blockquote>
