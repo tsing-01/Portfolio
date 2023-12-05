@@ -6,6 +6,7 @@ import Rxcellent from "../../Assets/Projects/rxcellent.png";
 import Resort from "../../Assets/Projects/resort.jpeg";
 import Cms from "../../Assets/Projects/cms.jpeg";
 import liggy from "../../Assets/Projects/liggy.png";
+import jobs from "../../Assets/Projects/jobs.png";
 import Market from "../../Assets/Projects/market.png";
 import ZebraUI from "../../Assets/Projects/zebraui.png";
 import Quickbolt from "../../Assets/Projects/qucikbolt.png";
@@ -23,6 +24,18 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+        <Col md={4} className="project-card">
+          {/* 2023. 12 */}
+            <ProjectCard
+              imgPath={jobs}
+              isBlog={false}
+              title="Finding Jobs"
+              description="This is a project based on React.js + Node.js + MongoDB. It is a full stack project and I responsible for all stack development. It includes all flows from local to clound."
+              ghLink="https://github.com/tsing-01/jobs-client"
+              demoLink="https://jobs-client-jobs-server-online.up.railway.app/"
+            />
+          </Col>
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={liggy}
